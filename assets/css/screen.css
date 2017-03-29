@@ -109,7 +109,7 @@ h6 {
   font-size: 2rem; }
 
 a {
-  color: #38ff9c;
+  color: #cccccc;
   transition: color ease 0.3s; }
   a:hover {
     color: #38ff9c; }
@@ -125,7 +125,7 @@ hr {
   display: block;
   height: 1px;
   border: 0;
-  border-top: 1px solid #424650;
+  border-top: 1px solid #4d4d4d;
   margin: 3.2em 0;
   padding: 0; }
 
@@ -167,7 +167,7 @@ dl {
     margin-bottom: 1em; }
 
 mark {
-  background-color: #ffc336; }
+  background-color: #38ff9c; }
 
 code, tt {
   padding: 1px 3px;
@@ -260,7 +260,7 @@ button, input, select, textarea {
   background: #000000;
   border: 1px solid #4d4d4d;
   color: #ffffff;
-  outline-color: #38ff9c; }
+  outline-color: #cccccc; }
 
 /* ==========================================================================
    3. Utilities - These things get used a lot
@@ -303,7 +303,7 @@ button, input, select, textarea {
   overflow: hidden;
   display: block;
   margin: 0 auto;
-  border: 5px solid #38ff9c; }
+  border: 5px solid #cccccc; }
   #blog-logo:before {
     width: 100px;
     height: 100px;
@@ -323,9 +323,9 @@ button, input, select, textarea {
     -webkit-transition: background .3s linear;
     -o-transition: background .3s linear;
     transition: background .3s linear;
-    border: 5px solid #38ff9c; }
+    border: 5px solid #cccccc; }
   #blog-logo:hover:before {
-    background: rgba(204, 31, 39, 0.5); }
+    background: rgba(67, 100, 229, 0.5); }
   #blog-logo img {
     display: block;
     max-height: 100px;
@@ -358,7 +358,7 @@ button, input, select, textarea {
   max-width: 700px;
   margin: 4rem auto;
   padding-bottom: 4rem;
-  border-bottom: #424650 1px solid;
+  border-bottom: #4d4d4d 1px solid;
   word-break: break-word;
   hyphens: auto; }
   .post-title {
@@ -374,9 +374,9 @@ button, input, select, textarea {
     display: inline-block;
     margin: 0 0 5px 0;
     font-size: 1.5rem;
-    color: #846d8f; }
+    color: #32e68c; }
   .post a {
-    color: #846d8f;
+    color: #2dcc7c;
     text-decoration: none; }
     .post a:hover {
       text-decoration: underline; }
@@ -441,7 +441,7 @@ button, input, select, textarea {
   position: relative;
   margin: 4rem 0 0 0;
   padding: 4rem 0 0 0;
-  border-top: #424650 1px solid; }
+  border-top: #4d4d4d 1px solid; }
   .post-footer h4 {
     font-size: 1.8rem;
     margin: 0; }
@@ -462,7 +462,7 @@ button, input, select, textarea {
       margin: 1.4rem 1.6rem 1.6rem 0;
       color: #BBC7CC; }
       .post-footer .share a:hover {
-        color: #50585D; }
+        color: #666666; }
 
 /* ==========================================================================
    6. Third Party Elements - Embeds from other services
@@ -478,10 +478,10 @@ button, input, select, textarea {
   margin: 4rem auto;
   font-family: "Courier New", Courier, monospace;
   font-size: 1.3rem;
-  color: #9EABB3;
+  color: #b3b3b3;
   text-align: center; }
   .pagination a {
-    color: #9EABB3; }
+    color: #b3b3b3; }
 
 /* Push the previous/next links out to the left/right */
 .older-posts,
@@ -489,11 +489,11 @@ button, input, select, textarea {
   position: absolute;
   display: inline-block;
   padding: 0 15px;
-  border: #424650 1px solid;
+  border: #4d4d4d 1px solid;
   text-decoration: none;
   border-radius: 5px;
   transition: border ease 0.3s;
-  background: #363c4a; }
+  background: #4d4d4d; }
 
 .older-posts {
   right: 0; }
@@ -507,7 +507,7 @@ button, input, select, textarea {
 
 .older-posts:hover,
 .newer-posts:hover {
-  border-color: #9EABB3; }
+  border-color: #b3b3b3; }
 
 /* ==========================================================================
    8. Footer - The bottom of every page
@@ -516,20 +516,20 @@ button, input, select, textarea {
   position: relative;
   margin: 8rem 0 0 0;
   padding: 4rem 0;
-  border-top: #1a1e27 1px solid;
+  border-top: #1a1a1a 1px solid;
   font-size: 1.3rem;
   line-height: 1.7em;
-  color: #BBC7CC;
+  color: #cccccc;
   text-align: center;
   background: #333333; }
   .site-footer a {
-    color: #BBC7CC;
+    color: #cccccc;
     text-decoration: underline; }
     .site-footer a::hover {
-      color: #50585D; }
+      color: #4d4d4d; }
 
 .poweredby .icon-ghost {
-  color: #38ff9c;
+  color: #cccccc;
   font-weight: 700;
   text-decoration: none; }
   .poweredby .icon-ghost:hover {
@@ -552,7 +552,7 @@ button, input, select, textarea {
   background: #fff;
   transition: box-shadow 0.5s; }
   .subscribe:before {
-    color: #D2DEE3;
+    color: #e6e6e6;
     font-size: 10px;
     position: absolute;
     top: 2px;
@@ -566,7 +566,7 @@ button, input, select, textarea {
       opacity: 1;
       top: -33px; }
     .subscribe:hover:before {
-      color: #50585D; }
+      color: #4d4d4d; }
 
 .tooltip {
   opacity: 0;
@@ -580,7 +580,7 @@ button, input, select, textarea {
   font-weight: bold;
   line-height: 1em;
   text-align: center;
-  background: #50585D;
+  background: #4d4d4d;
   border-radius: 20px;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
   transition: opacity 0.3s ease, top 0.3s ease; }
@@ -588,7 +588,7 @@ button, input, select, textarea {
     content: "";
     border-width: 5px 5px 0 5px;
     border-style: solid;
-    border-color: #50585D transparent;
+    border-color: #4d4d4d transparent;
     display: block;
     position: absolute;
     bottom: -4px;
@@ -685,7 +685,7 @@ button, input, select, textarea {
   .post-footer .author {
     margin: 0 0 2rem 0;
     padding: 0 0 1.6rem 0;
-    border-bottom: #424650 1px dashed; }
+    border-bottom: #4d4d4d 1px dashed; }
   .post-footer .share {
     position: static;
     width: auto; }

@@ -43,7 +43,7 @@
             border: 5px solid $contessa;
         }
         &:hover:before {
-            background: rgba(204,31,39, 0.5);  
+            background: rgba(67, 100, 229, 0.5);
         }
         img {
             display: block;
@@ -104,10 +104,10 @@
         display: inline-block;
         margin: 0 0 5px 0;
         font-size: 1.5rem;
-        color: #846d8f;
+        color: #32e68c;
     }
      a {
-        color: #846d8f;
+        color: #2dcc7c;
         text-decoration: none;
         &:hover {
             text-decoration: underline;

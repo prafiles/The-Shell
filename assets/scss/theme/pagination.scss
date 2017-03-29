@@ -10,10 +10,10 @@
     margin: 4rem auto;
     font-family: "Courier New", Courier, monospace;
     font-size: 1.3rem;
-    color: #9EABB3;
+    color: #b3b3b3;
     text-align: center;
     a {
-        color: #9EABB3;
+        color: #b3b3b3;
     }
 }
 
@@ -27,7 +27,7 @@
     text-decoration: none;
     border-radius: 5px;
     transition: border ease 0.3s;
-    background: #363c4a;
+    background: #4d4d4d;
 }
 
 .older-posts {
@@ -45,5 +45,5 @@
 
 .older-posts:hover,
 .newer-posts:hover {
-    border-color: #9EABB3;
+    border-color: #b3b3b3;
 }
