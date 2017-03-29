@@ -54,10 +54,10 @@ body {
   font-size: 2.0rem;
   line-height: 1.6em;
   color: #ffffff;
-  background: #2b303b; }
+  background: #1a1a1a; }
 
 ::selection {
-  color: #000000;
+  color: #333333;
   background: #38ff9c;
   text-shadow: none; }
 
@@ -134,7 +134,7 @@ blockquote {
   box-sizing: border-box;
   margin: 1.6em 0 1.6em -2.2em;
   padding: 0 0 0 1.6em;
-  border-left: #4f586b 0.4em solid; }
+  border-left: #000000 0.4em solid; }
   blockquote p {
     margin: 0.8em 0;
     font-style: italic; }
@@ -175,15 +175,15 @@ code, tt {
   font-family: "Courier New", Courier, monospace;
   font-size: 0.75em;
   white-space: pre;
-  border: 1px solid #424a5a;
-  background: #4f586b;
+  border: 1px solid #4d4d4d;
+  background: #000000;
   border-radius: 2px; }
 
 pre {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   margin: 1.6em 0;
-  border: 1px solid #424a5a;
+  border: 1px solid #4d4d4d;
   width: 100%;
   padding: 10px;
   /*font-family: Menlo, Consolas, Monaco, "Lucida Console", monospace;*/
@@ -191,7 +191,7 @@ pre {
   font-size: 0.8em;
   white-space: pre;
   overflow: auto;
-  background: #4f586b;
+  background: #000000;
   border-radius: 3px; }
 
 pre code, tt {
@@ -229,7 +229,7 @@ table td {
   line-height: 20px;
   text-align: left;
   vertical-align: top;
-  border-top: 1px solid #424a5a; }
+  border-top: 1px solid #4d4d4d; }
 
 table th {
   color: #000; }
@@ -250,15 +250,15 @@ table table table {
 
 table tbody > tr:nth-child(odd) > td,
 table tbody > tr:nth-child(odd) > th {
-  background-color: #4f586b; }
+  background-color: #000000; }
 
 table.plain tbody > tr:nth-child(odd) > td,
 table.plain tbody > tr:nth-child(odd) > th {
   background: transparent; }
 
 button, input, select, textarea {
-  background: #4f586b;
-  border: 1px solid #424a5a;
+  background: #000000;
+  border: 1px solid #4d4d4d;
   color: #ffffff;
   outline-color: #38ff9c; }
 
@@ -294,7 +294,7 @@ button, input, select, textarea {
   margin-bottom: 5rem;
   text-align: center;
   color: #a0add5;
-  background: #000000 no-repeat center center;
+  background: #333333 no-repeat center center;
   background-size: cover; }
 
 #blog-logo {
@@ -521,7 +521,7 @@ button, input, select, textarea {
   line-height: 1.7em;
   color: #BBC7CC;
   text-align: center;
-  background: #000000; }
+  background: #333333; }
   .site-footer a {
     color: #BBC7CC;
     text-decoration: underline; }
