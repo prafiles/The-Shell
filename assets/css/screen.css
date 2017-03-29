@@ -175,7 +175,7 @@ code, tt {
   font-family: "Courier New", Courier, monospace;
   font-size: 0.75em;
   white-space: pre;
-  border: 1px solid #4d4d4d;
+  border: 1px solid #1a1a1a;
   background: #000000;
   border-radius: 2px; }
 
@@ -183,7 +183,7 @@ pre {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   margin: 1.6em 0;
-  border: 1px solid #4d4d4d;
+  border: 1px solid #1a1a1a;
   width: 100%;
   padding: 10px;
   /*font-family: Menlo, Consolas, Monaco, "Lucida Console", monospace;*/
@@ -229,7 +229,7 @@ table td {
   line-height: 20px;
   text-align: left;
   vertical-align: top;
-  border-top: 1px solid #4d4d4d; }
+  border-top: 1px solid #1a1a1a; }
 
 table th {
   color: #000; }
@@ -258,7 +258,7 @@ table.plain tbody > tr:nth-child(odd) > th {
 
 button, input, select, textarea {
   background: #000000;
-  border: 1px solid #4d4d4d;
+  border: 1px solid #1a1a1a;
   color: #ffffff;
   outline-color: #2dcc7c; }
 
@@ -493,7 +493,7 @@ button, input, select, textarea {
   text-decoration: none;
   border-radius: 5px;
   transition: border ease 0.3s;
-  background: #4d4d4d; }
+  background: #333333; }
 
 .older-posts {
   right: 0; }
@@ -526,7 +526,7 @@ button, input, select, textarea {
     color: #cccccc;
     text-decoration: underline; }
     .site-footer a::hover {
-      color: #4d4d4d; }
+      color: #333333; }
 
 .poweredby .icon-ghost {
   color: #2dcc7c;
@@ -566,7 +566,7 @@ button, input, select, textarea {
       opacity: 1;
       top: -33px; }
     .subscribe:hover:before {
-      color: #4d4d4d; }
+      color: #333333; }
 
 .tooltip {
   opacity: 0;
@@ -580,7 +580,7 @@ button, input, select, textarea {
   font-weight: bold;
   line-height: 1em;
   text-align: center;
-  background: #4d4d4d;
+  background: #333333;
   border-radius: 20px;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
   transition: opacity 0.3s ease, top 0.3s ease; }
@@ -588,7 +588,7 @@ button, input, select, textarea {
     content: "";
     border-width: 5px 5px 0 5px;
     border-style: solid;
-    border-color: #4d4d4d transparent;
+    border-color: #333333 transparent;
     display: block;
     position: absolute;
     bottom: -4px;

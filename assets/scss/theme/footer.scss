@@ -16,7 +16,7 @@
         color: #cccccc;
         text-decoration: underline;
         &::hover {
-            color: #4d4d4d;
+            color: #333333;
         }
     }
 }
@@ -66,7 +66,7 @@
             top: -33px;
         }
         &:before {
-            color: #4d4d4d;
+            color: #333333;
         }
     }
 }
@@ -83,7 +83,7 @@
     font-weight: bold;
     line-height: 1em;
     text-align: center;
-    background: #4d4d4d;
+    background: #333333;
     border-radius:20px;
     box-shadow: 0 1px 4px rgba(0,0,0,0.1);
     transition: opacity 0.3s ease, top 0.3s ease;
@@ -91,7 +91,7 @@
         content:"";
         border-width:5px 5px 0 5px;
         border-style:solid;
-        border-color: #4d4d4d transparent;
+        border-color: #333333 transparent;
         display:block;
         position:absolute;
         bottom:-4px;
