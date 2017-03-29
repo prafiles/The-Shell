@@ -109,7 +109,7 @@ h6 {
   font-size: 2rem; }
 
 a {
-  color: #cccccc;
+  color: #2dcc7c;
   transition: color ease 0.3s; }
   a:hover {
     color: #38ff9c; }
@@ -260,7 +260,7 @@ button, input, select, textarea {
   background: #000000;
   border: 1px solid #4d4d4d;
   color: #ffffff;
-  outline-color: #cccccc; }
+  outline-color: #2dcc7c; }
 
 /* ==========================================================================
    3. Utilities - These things get used a lot
@@ -293,7 +293,7 @@ button, input, select, textarea {
   height: 60%;
   margin-bottom: 5rem;
   text-align: center;
-  color: #a0add5;
+  color: #2dcc7c;
   background: #333333 no-repeat center center;
   background-size: cover; }
 
@@ -303,7 +303,7 @@ button, input, select, textarea {
   overflow: hidden;
   display: block;
   margin: 0 auto;
-  border: 5px solid #cccccc; }
+  border: 5px solid #2dcc7c; }
   #blog-logo:before {
     width: 100px;
     height: 100px;
@@ -323,7 +323,7 @@ button, input, select, textarea {
     -webkit-transition: background .3s linear;
     -o-transition: background .3s linear;
     transition: background .3s linear;
-    border: 5px solid #cccccc; }
+    border: 5px solid #2dcc7c; }
   #blog-logo:hover:before {
     background: rgba(67, 100, 229, 0.5); }
   #blog-logo img {
@@ -529,7 +529,7 @@ button, input, select, textarea {
       color: #4d4d4d; }
 
 .poweredby .icon-ghost {
-  color: #cccccc;
+  color: #2dcc7c;
   font-weight: 700;
   text-decoration: none; }
   .poweredby .icon-ghost:hover {
